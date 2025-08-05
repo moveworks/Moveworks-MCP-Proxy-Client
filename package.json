@@ -1,0 +1,25 @@
+{
+  "name": "mcp-poc",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.15.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "ai": "^4.3.16",
+    "hono": "^4.8.1",
+    "pg": "^8.16.2",
+    "zod": "^3.25.67"
+  }
+}
